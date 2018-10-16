@@ -11,6 +11,7 @@ class Films extends React.Component {
   }
 
   componentDidMount() {
+      console.log('making request to get films');
     fetch("http://ghibliapi.herokuapp.com/films")
       .then(res => res.json())
       .then(films => this.setState({ films }))

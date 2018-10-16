@@ -22,17 +22,17 @@ class App extends Component {
             />
             <br />
             <Link to="/home">
-              <button className="btn-primary mx-1 my-1" type="button">
+              <button className="btn btn-primary mx-1 my-1" type="button">
                 Go Home
               </button>
             </Link>
             <Link to="/films">
-              <button className="btn-primary mr-1 my-1" type="button">
+              <button className="btn btn-primary mr-1 my-1" type="button">
                 View Films
               </button>
             </Link>
             <Link to="/people">
-              <button className="btn-primary mr-1 my-1" type="button">
+              <button className="btn btn-primary mr-1 my-1" type="button">
                 View People
               </button>
             </Link>
