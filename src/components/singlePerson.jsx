@@ -10,9 +10,7 @@ class singlePerson extends React.Component {
   }
 
   componentDidMount() {
-    fetch(
-      `https://ghibliapi.herokuapp.com/people/${this.props.match.params.id}`
-    )
+    fetch(`https://ghibliapi.herokuapp.com/people/${this.props.match.params.id}`)
       .then(res => res.json())
       .then(person => this.setState({ person }))
       .catch(e => console.log("There was an error:"`${e}`));
@@ -20,7 +18,7 @@ class singlePerson extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container mx-1">
         <div className="row mt-4">
           <h1>{this.state.person.name}</h1>
         </div>

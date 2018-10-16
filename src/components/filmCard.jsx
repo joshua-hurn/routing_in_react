@@ -12,7 +12,7 @@ const FilmCard = props => {
           </h6>
           <p className="card-text">{props.film.description}</p>
           <Link to={`/films/${props.film.id}`} className="btn btn-primary btn-block">
-            Show Post Details!
+            Show Details!
           </Link>
         </div>
       </div>

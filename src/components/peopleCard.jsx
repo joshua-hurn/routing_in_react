@@ -12,7 +12,7 @@ const PeopleCard = props => {
           </h6>
           <p className="card-text">{props.person.age}</p>
           <Link to={`/people/${props.person.id}`} className="btn btn-primary btn-block">
-            Show Post Body!
+            Show Details!
           </Link>
         </div>
       </div>
